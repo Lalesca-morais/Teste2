@@ -5,7 +5,7 @@ public class Banco {
         this.nomeCliente = nomeCliente;
         this.saldo = saldoInicial;
     }
-    public void sacar(String valor) {
+    public void sacar(double valor) {
         if (valor > 0 && valor <= saldo) {
             saldo -= valor;
             System.out.println("Saque de R$" + valor + " realizado com sucesso.\nSaldo Atual: " + saldo);
