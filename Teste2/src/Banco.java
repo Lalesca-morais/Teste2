@@ -21,4 +21,7 @@ public class Banco {
             System.out.println("Valor inválido para depósito.");
         }
     }
+    public void exibirSaldo() {
+        System.out.println("Saldo atual: R$" + saldo);
+    }
 }
